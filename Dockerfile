@@ -1,8 +1,7 @@
 FROM node:alpine
 WORKDIR /usr/app
 COPY package.json .
-RUN npm install -g yarn
-RUN yarn
+RUN npm install
 COPY . .
-RUN yarn build
+RUN npm run build
 CMD ["node", "./dist/index.js"]
