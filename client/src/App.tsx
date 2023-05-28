@@ -42,7 +42,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           Count adalah {count}
         </button>
-        {loading ? <p>Loading...</p> : <p>Data adalah : {data}</p>}
+        {loading ? <p>Loading...</p> : <p>Data is : {data}</p>}
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
