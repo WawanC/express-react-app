@@ -40,7 +40,7 @@ function App() {
       <h1>Vite + React + Typescript</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          Count adalah {count}
+          Count is {count}
         </button>
         {loading ? <p>Loading...</p> : <p>Data is : {data}</p>}
         <p>
